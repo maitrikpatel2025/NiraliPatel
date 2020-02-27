@@ -5,7 +5,7 @@ import './Btn.css';
 const Btn =(props)=> {
  const {Name} =props;
 return(
-<Button className="Btn" variant="outlined" color="primary">
+<Button className="Btn" color="primary">
   {Name}
 </Button>
 )

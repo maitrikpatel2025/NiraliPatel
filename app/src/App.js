@@ -1,14 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Btn from './Components/Button/Btn';
+import TopNavBar from './Components/TopNavBar/TopNavBar';
 
 function App() {
   return (
     <div className="App">
-      <Btn
-        Name='home'>
-        </Btn>
+     <TopNavBar/>
     </div>
   );
 }
