@@ -1,13 +1,12 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
 import './Btn.css';
 
 const Btn =(props)=> {
  const {Name} =props;
 return(
-<Button className="Btn" color="primary">
-  {Name}
-</Button>
+  <li>
+    <button class="ui button btn">{Name}</button>
+  </li>
 )
 }
 export default Btn;

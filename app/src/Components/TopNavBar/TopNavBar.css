@@ -1,4 +1,21 @@
 .NavBar{
     display: flex;
+    position: absolute;
     justify-content:space-between; 
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
+.TopNav{
+    display: flex;
+    position: absolute;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    justify-content:space-between;
+    background-color: whitesmoke;
+  }
+  .TopNav:hover{
+    justify-content:space-between;
+    background-color: red;
+  }

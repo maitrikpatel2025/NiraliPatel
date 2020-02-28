@@ -3,12 +3,10 @@ import './Logo.css';
 
 const Logo =()=> {
 return(
-<div>
-    <a href="/" > 
-        <img src="/staticx/udemy/images/v6/logo-coral.svg" 
-        alt="Udemy" width="110" height="32"/>
-        </a>
-    </div>
+  <a href="/" > 
+    <img src="https://www.vectorlogo.zone/logos/udemy/udemy-ar21.svg"
+    alt="Udemy" width="110" height="32"/>
+  </a>
 )
 }
 export default Logo;

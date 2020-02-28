@@ -1,0 +1,16 @@
+.ui.button.btn{
+    background-color: whitesmoke;
+    float: left;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 1px;
+    border-radius: 25px;
+    transition: 0.3s;
+      }
+.ui.button.btn:hover{
+    background-image:linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+}
