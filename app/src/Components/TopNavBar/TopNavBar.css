@@ -6,16 +6,23 @@
     position: sticky;
     top: 0;
 }
-.TopNav{
+.TopNav.navbar.navbar-expand-lg{
     display: flex;
     position: absolute;
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    align-items: center;
     top: 0;
+    justify-content:center;
+    background-color: whitesmoke;
+    width: 100%;
+    overflow: auto;
+  }
+.TopNav.navbar.navbar-expand-lg:hover{
     justify-content:space-between;
     background-color: whitesmoke;
   }
-  .TopNav:hover{
-    justify-content:space-between;
-    background-color: red;
-  }
+.Element.navbar-nav.mr-auto{
+    top: 0;
+    justify-content: space-between;
+}
